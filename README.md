@@ -1,6 +1,6 @@
 # Cisco ASA Research
 
-This repository contains slides and code presented at Black Hat USA 2022 and DEF CON . The following can be found:
+This repository contains slides and code presented at Black Hat USA 2022 and DEF CON 30. The following can be found:
 
 * [theway](https://github.com/jbaines-r7/theway) - a tool for creating malicious/distributable ASDM packages for the Cisco ASA ([CVE-2022-20829](https://nvd.nist.gov/vuln/detail/CVE-2022-20829)).
 * [whatsup](https://github.com/jbaines-r7/whatsup) - a tool for creating malicious/distributable Cisco FirePOWER module installation packages (No CVE).
@@ -13,3 +13,5 @@ This repository contains slides and code presented at Black Hat USA 2022 and DEF
   * A PackRat post-exploitation module to extract credentials from ASDM client log files ([CVE-2022-20651](https://nvd.nist.gov/vuln/detail/CVE-2022-20651))
   * An ASDM (HTTP) brute-force authentication module.
   * A module for dumping the ASA running-config over ASDM (HTTP).
+* `yara/` contains [YARA](https://virustotal.github.io/yara/) rules to help identify malicious files or exploitation.
+* `slides/` contains the slide decks presented at BH USA 2022 and DEF CON 30.
