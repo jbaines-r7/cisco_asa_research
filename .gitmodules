@@ -13,3 +13,6 @@
 [submodule "whatsup"]
 	path = whatsup
 	url = git@github.com:jbaines-r7/whatsup.git
+[submodule "getchoo"]
+	path = getchoo
+	url = git@github.com:jbaines-r7/getchoo.git

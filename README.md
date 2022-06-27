@@ -7,7 +7,8 @@ This repository contains slides and code presented at Black Hat USA 2022 and DEF
 * [pinchme](https://github.com/jbaines-r7/pinchme) - a tool for creating malicious/distributable Cisco FirePOWER boot images (No CVE).
 * [staystaystay](https://github.com/jbaines-r7/staystaystay) - a stand-alone exploit for [CVE-2021-1585](https://nvd.nist.gov/vuln/detail/CVE-2021-1585), an unath RCE vulnerability affecting Cisco ASDM.
 * [asdm_version_scanner](https://github.com/jbaines-r7/asdm_version_scanner) - a tool for scanning ASA ASDM web interfaces and collecting versions. The repository contains results from an internet scan conducted on June 17, 2022.
-* Modules (Metasploit modules)
+* [getchoo](https://github.com/jbaines-r7/getchoo) - a tool for extracting the contents of an ASDM sgz file.
+* `modules/` (Metasploit):
   * An RCE module for [CVE-2022-20828](https://nvd.nist.gov/vuln/detail/CVE-2022-20828): Remote ASDM -> FirePOWER root.
   * An RCE module for [CVE-2021-1585](https://nvd.nist.gov/vuln/detail/CVE-2021-1585): Unauthenticated RCE affecting ASDM *client*.
   * A PackRat post-exploitation module to extract credentials from ASDM client log files ([CVE-2022-20651](https://nvd.nist.gov/vuln/detail/CVE-2022-20651))
