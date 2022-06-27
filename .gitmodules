@@ -1,0 +1,15 @@
+[submodule "staystaystay"]
+	path = staystaystay
+	url = https://github.com/jbaines-r7/staystaystay
+[submodule "asdm_version_scanner"]
+	path = asdm_version_scanner
+	url = git@github.com:jbaines-r7/asdm_version_scanner.git
+[submodule "theway"]
+	path = theway
+	url = git@github.com:jbaines-r7/theway.git
+[submodule "pinchme"]
+	path = pinchme
+	url = git@github.com:jbaines-r7/pinchme.git
+[submodule "whatsup"]
+	path = whatsup
+	url = git@github.com:jbaines-r7/whatsup.git
