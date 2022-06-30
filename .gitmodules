@@ -16,3 +16,6 @@
 [submodule "getchoo"]
 	path = getchoo
 	url = git@github.com:jbaines-r7/getchoo.git
+[submodule "slowcheetah"]
+	path = slowcheetah
+	url = git@github.com:jbaines-r7/slowcheetah.git
