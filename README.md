@@ -12,6 +12,7 @@ This repository contains slides and code presented at Black Hat USA 2022 and DEF
 * `modules/` (Metasploit):
   * An RCE module for [CVE-2022-20828](https://nvd.nist.gov/vuln/detail/CVE-2022-20828): Remote ASDM -> FirePOWER root.
   * An RCE module for [CVE-2021-1585](https://nvd.nist.gov/vuln/detail/CVE-2021-1585): Unauthenticated RCE affecting ASDM *client*.
+  * An RCE module that installs a Cisco FirePOWER boot image, roots it, and grabs a meterpreter root shell (No CVE).
   * A PackRat post-exploitation module to extract credentials from ASDM client log files ([CVE-2022-20651](https://nvd.nist.gov/vuln/detail/CVE-2022-20651))
   * An ASDM (HTTP) brute-force authentication module.
   * A module for dumping the ASA running-config over ASDM (HTTP).
