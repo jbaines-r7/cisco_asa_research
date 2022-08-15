@@ -2,6 +2,8 @@
 
 This repository contains slides and code presented at Black Hat USA 2022 and DEF CON 30. The following can be found:
 
+* Slides
+  * DEF CON 30 and Black Hat slide decks. The DEF CON deck is slightly longer due to a longer time slot.
 * [theway](https://github.com/jbaines-r7/theway) - a tool for creating malicious/distributable ASDM packages for the Cisco ASA ([CVE-2022-20829](https://nvd.nist.gov/vuln/detail/CVE-2022-20829)).
 * [whatsup](https://github.com/jbaines-r7/whatsup) - a tool for creating malicious/distributable Cisco FirePOWER module installation packages (No CVE).
 * [pinchme](https://github.com/jbaines-r7/pinchme) - a tool for creating malicious/distributable Cisco FirePOWER boot images (No CVE).
