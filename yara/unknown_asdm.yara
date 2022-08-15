@@ -51,5 +51,8 @@ rule Unknown_ASDM_Package {
         hash.md5(0, filesize) != "3d567e424bb476f161642f787768f2b6" and
         hash.md5(0, filesize) != "eec67ea0f38aa249b18ef6f4e0667ebe" and
         hash.md5(0, filesize) != "f862f37a5e00ca3fb0a50bcb9ac036d0" and
-        hash.md5(0, filesize) != "5783f0ac96e8e1160031a6e770d68151"
+        hash.md5(0, filesize) != "5783f0ac96e8e1160031a6e770d68151" and
+        hash.md5(0, filesize) != "5af12c8c20941d7dcf12c23ecddeb1d9" and
+        hash.md5(0, filesize) != "328607b88063d22d96df2f5ce1d67bee" and
+        hash.md5(0, filesize) != "01ea62bd21adc1d1e7a361cd45279556"
 }
