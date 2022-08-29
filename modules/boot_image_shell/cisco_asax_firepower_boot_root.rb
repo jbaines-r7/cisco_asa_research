@@ -321,7 +321,7 @@ class MetasploitModule < Msf::Exploit::Remote
             state = 1
             buffer = ''
           elsif buffer.include? '> '
-            channel.send_data("en\n")
+            channel.send_data("enable\n")
             buffer = ''
           end
 
