@@ -115,17 +115,10 @@ class MetasploitModule < Msf::Exploit::Remote
   end
 
   def connect
-    opts = ssh_client_defaults.merge({
-      auth_methods: ['password'],
-      port: rport,
-      password: password
-    })
-    opts.merge!(verbose: :debug) if datastore['SSH_DEBUG']
-
     print_status("#{rhost}:#{rport} - Attempting to login...")
     begin
       ::Timeout.timeout(datastore['SSH_TIMEOUT']) do
-        ssh = Net::SSH.start(rhost, username, opts)
+        ssh = Net::SSH.start(rhost, username, :password => password, :port => rport, :kex=>'diffie-hellman-group1-sha1')
         print_good('Authenticated with the remote server')
         return ssh
       end
