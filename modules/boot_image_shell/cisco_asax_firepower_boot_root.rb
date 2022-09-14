@@ -311,7 +311,7 @@ class MetasploitModule < Msf::Exploit::Remote
         case state
         when 0 # get enable prompt
           if buffer.include? 'Password: '
-            channel.send_data("#{datastore['ENABLE_PASSWORD']}\n")
+            channel.send_data("#{datastore['PASSWORD']}\n")
             buffer = ''
           elsif buffer.include? 'Invalid password'
             fail_with(failure::BadConfig, 'Invalid enable password')
@@ -321,7 +321,7 @@ class MetasploitModule < Msf::Exploit::Remote
             state = 1
             buffer = ''
           elsif buffer.include? '> '
-            channel.send_data("en\n")
+            channel.send_data("enable\n")
             buffer = ''
           end
 
